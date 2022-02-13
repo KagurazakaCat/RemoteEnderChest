@@ -1,0 +1,23 @@
+name: RemoteEnderChest
+version: '${project.version}'
+main: cat.kagurazaka.mcplugin.remoteenderchest.RemoteEnderChest
+api-version: 1.18
+authors: [ KagurazakaKano ]
+description: Allow players to open ender chest remotely
+
+commands:
+  rec:
+    usage: "/rec <subcommand>"
+    permission: "rec.viewcommands"
+    permission-message: "You do not have permission to do that!"
+
+permissions:
+  rec.viewcommands:
+    description: Let the player view commands
+    default: true
+  rec.openself:
+    description: Let the player open their's ender chest
+    default: true
+  rec.openother:
+    description: Let the player open others' ender chest
+    default: op

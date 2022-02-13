@@ -1,0 +1,6 @@
+DisableMessage: "§ePlugin has been disabled successfully!"
+EnableMessage: "§ePlugin has been enabled successfully!"
+MessageSentByServer: "§cThis command is ONLY AVAILABLE FOR players."
+OpenSuccessfully: "§eCommand successfully executed!"
+OpenUnsuccessfully: "§cPlayer you wish to open is not available!"
+Prefix: "§a§lRemoteEnderChest §7>> "
